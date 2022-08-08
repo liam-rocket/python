@@ -1,64 +1,28 @@
-print('Hello world')
+print("Hello Liam!")
+
+x = 2
+y = "Vanessa"
+
+print(x)
+print(y)
+
+z = 3 + 4
+print(z)
+
+hungry = True
+sad = False
+
+print(10 > 9)  # True
+print(10 == 9)  # False
+
+age = 19
+print(age > 18)  # True
 
 
+a = 200
+b = 33
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# from random import choice
-
-# # Generate votes
-# candidates = ["sam", "perry", "eng liang"]
-# votes = []
-# for _ in range(1000):
-#   # Append 1000 random (of 3 choices) candidates to votes array
-#   votes.append(choice(candidates))
-
-
-# # Compile a tally of how many times an element appears in an array
-# # The tally is stored in a dictionary.
-# def get_winner(votes):
-#   # Compile tally
-#   tally = {}
-#   for person in votes:
-#     if person not in tally:
-#       tally[person] = 0
-#     tally[person] += 1
-
-#   # Return the person with max votes as the winner
-#   max_votes = max(tally.values())
-#   for person, vote_count in tally.items():
-#     if vote_count == max_votes:
-#       return person
-
-# # Output winner
-# print(get_winner(votes))
+if b > a:
+    print("b is greater than a")
+else:
+    print("b is not greater than a")

@@ -11,7 +11,8 @@ card_deck = [
     },
 ]
 
-print(card_deck)
+# print(card_deck[0]["suit"])
+# print(card_deck)
 
 
 # Initialise index to 0 to start from the beginning of the array

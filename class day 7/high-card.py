@@ -55,8 +55,11 @@ def main():
 
     "The {} {} {}".format("cute", "ginger", "kitten")
 
+    computer_card_name = computer_card["name"]
+    computer_card_suit = computer_card["suit"]
+
     my_output = "Computer had {} of {}. Player had {} of {}.".format(
-        computer_card["name"],
+        computer_card_name,
         computer_card["suit"],
         player_card["name"],
         player_card["suit"],
@@ -72,7 +75,7 @@ def main():
         my_output = my_output + " Player wins!"
         # Otherwise (i.e. ranks are equal), it's a tie
     else:
-        my_output = my_output + "It's a tie."
+        my_output = my_output + " It's a tie."
 
     # Return the fully-constructed output string
     return my_output

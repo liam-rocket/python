@@ -11,6 +11,11 @@ card_deck = [
         "suit": "heart",
         "name": "two",
     },
+    {
+        "rank": 3,
+        "suit": "heart",
+        "name": "three",
+    },
 ]
 
 # Get a random index ranging from 0 (inclusive) to max (exclusive).

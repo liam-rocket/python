@@ -1,7 +1,6 @@
-# from cmath import pi
+from cmath import pi
 
-pi = 3.14
-r = input("r=")
+r = float(input("r="))
 a = pi * r**2
 
-print("area=",a)
+print("area=", a)
