@@ -60,7 +60,7 @@ def main():
 
     my_output = "Computer had {} of {}. Player had {} of {}.".format(
         computer_card_name,
-        computer_card["suit"],
+        computer_card_suit,
         player_card["name"],
         player_card["suit"],
     )
